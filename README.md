@@ -2,6 +2,12 @@
 
 Projeto de automacao de testes E2E com foco no fluxo de cadastro de funcionarios.
 
+## Entrega do teste tecnico
+
+- Visao geral do projeto: este README
+- Relatorio executivo: `RELATORIO_ENTREGA.md`
+- Guia de publicacao: `PUBLISH_GITHUB.md`
+
 ## Estrutura
 
 - `features/`: arquivos `.feature` com cenarios BDD
