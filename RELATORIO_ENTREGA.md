@@ -51,6 +51,16 @@ Automatizar fluxos criticos de cadastro e validacao de funcionarios utilizando P
 | C05 | Cadastro de funcionario sem uso de EPI | Aprovado | `features/funcionario.feature` |
 | C06 | Edicao de funcionario cadastrado | Aprovado com observacao | `evidencias/warnings.log` |
 
+### Matriz de Cobertura por Área
+
+| Área | Cobertura Principal | Tipo |
+| --- | --- | --- |
+| Cadastro | Fluxo básico com dados válidos | Funcional |
+| Cadastro | Validação de status (Ativo/Inativo) | Funcional |
+| Cadastro | Seleção de atividade específica | Funcional |
+| Cadastro | Validação de marcar/desmarcar EPI | Funcional |
+| Edição | Atualização de dados cadastrais | Funcional |
+
 ## Observacao final
 
 A entrega atende ao escopo funcional solicitado para o teste tecnico, com automacao executavel e evidencias registradas. Os riscos remanescentes estao mapeados e mitigados com logging para nao interromper a validacao dos fluxos principais.
