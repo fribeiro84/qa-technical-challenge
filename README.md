@@ -28,7 +28,7 @@ Projeto de automacao de testes E2E com foco no fluxo de cadastro de funcionarios
 ## Requisitos
 
 - Python 3.10+
-- Microsoft Edge instalado (para execucao com Edge)
+- Microsoft Edge instalado (navegador padrao desta entrega)
 - Dependencias do projeto instaladas
 
 ## Instalacao
@@ -51,7 +51,7 @@ python -m behave
 ## Variaveis de ambiente
 
 - `BASE_URL`: URL base da aplicacao
-- `BROWSER`: navegador (`chrome` ou `edge`)
+- `BROWSER`: navegador (`edge` como padrao da entrega; `chrome` opcional)
 - `HEADLESS`: `true` ou `false`
 - `BROWSER_ZOOM`: zoom global do navegador (`1.0` = 100%, `0.7` = 70%)
 - `CHROMEDRIVER_PATH`: caminho opcional para ChromeDriver
