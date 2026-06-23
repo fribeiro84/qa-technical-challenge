@@ -30,7 +30,7 @@ Automatizar fluxos criticos de cadastro e validacao de funcionarios utilizando P
 ## Criterio de entrada
 
 1. Ambiente Python configurado com dependencias instaladas (`requirements.txt`).
-2. Browser e driver compativeis disponiveis (Edge/Chrome).
+2. Browser e driver compativeis disponiveis (Edge como padrao da entrega; Chrome opcional).
 3. URL da aplicacao acessivel (`BASE_URL`).
 4. Variaveis de ambiente de execucao definidas (browser, headless, zoom, paths opcionais).
 
