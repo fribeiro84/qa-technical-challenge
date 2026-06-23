@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Test outputs
+evidencias/*.png
+evidencias/*.log
+features/evidencias/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
